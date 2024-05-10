@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.4"
+  },
+  "scripts": {
+    "start": "yarn run cypress open"
+  }
+}
