@@ -11,7 +11,7 @@ describe('Testes referente a tela de login da aplicação', () => {
     });
 
     it('Valida o login com credenciais inválidas', () => {
-        cy.login('incorrect_user', 'invalid_sauce')   
+        cy.login('incorrrect_use', 'invalid_sauce')
 
         cy.get('[data-test="error"]')
             .should('have.a.text', 'Epic sadface: Username and password do not match any user in this service')
